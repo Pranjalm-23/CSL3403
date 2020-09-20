@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form</title>
+    <style>
+	
+	
+			
+		.myDiv  {
+  border: 5px outset black;
+  background-color:#b3ffe0;
+  width:100%;
+
+  border-radius: 5px;
+  text-align: left;
+}
+     
+ .field{ 
+            margin: 2vh;
+         }                                        
+		
+	
+	
+		
+
+		
+        .suggest{
+            color: grey;
+            font-size: smaller;
+        }
+       . fieldset{   margin: 2vh; 	   }
+        label{
+            width: 12em;
+            display:inline-block;
+        }
+
+		
+		h2{
+	color:#0d0d0d;
+	background-color: wheat;
+	font-family:"Comic Sans MS",cursive,sans-serif;
+	width:100%;
+	margin: auto;
+	padding-right: 70px;
+	border-radius: 10px ;
+	font-size:42px;
+}
+		
+		.p2{
+	background-color:#ff1a1a;
+	font-family:"Comic Sans MS",cursive,sans-serif;
+	border:5px black solid;
+	width:60%;
+	text-align: center;
+	margin: auto;
+	border-radius: 30px;
+	text-indent: 3em;	
+}
+
+
+h3{
+	color:white;
+	background-color:#00b36b;
+	font-family:"Comic Sans MS",cursive,sans-serif;
+	width:100%;
+	margin: auto;
+	padding-right: 20px;
+	padding-left: 50px;
+	border-radius: 10px;
+	font-size:36px;
+}
+</style>
+    
+</head>
+<body style="background-color:#42e6f5">
+
+
+<hr>
+<h1  title='An Institute of National Importance... '  style="color:black ; font-size:;" align="center" >
+ National Institute of Technology , Patna
+ </h1>
+
+<hr>
+
+
+    <legend><h2 style="text-align:center ">Resistration form</h2></legend><br>
+    <div class="myDiv">
+        <h3 align="center">BASIC DETAILS   </h3>
+        
+       <div class="field ">
+            <label for="formNum">Form Number</label>
+            <input type="text" name="formNum"  id="">
+        </div>
+        <div class="field">
+            <label for="name">Name</label>
+            <input type="text" name="formNum" id="">
+        </div>
+		
+		<div class="field">
+		<label for="Photograph">Recent Photograph</label>
+<input type="file" id="Photograph" name="photograph">		
+		
+		<div class="field">
+            <label for="rollNum">Roll Number</label>
+            <input type="number" name="rollmNum" id="">
+        </div>
+        <div class="field">
+            <label for="gender">Gender</label>
+            <span>
+                <label for="male_gender" class="autoWidth">Male</label>
+                <input type="radio" name="gender_r" id="male_gender">
+                <label for="female_gender" class="autoWidth">Female</label>
+                <input type="radio" name="gender_r" id="female_gender">
+            </span>
+        </div>
+        <div class="field">
+            <label for="dob">DOB</label>
+            <input type="date" name="" id="dob">
+        </div>
+        <div class="field">
+            <label for="pwd">PWD</label>
+            <span>
+                <label for="yes_pwd" class="autoWidth">Yes</label>
+                <input type="radio" name="pwd_r" id="yes_pwd">
+                <label for="no_pwd" class="autoWidth">No</label>
+                <input type="radio" name="pwd_r" id="no_pwd">
+            </span>
+        </div>
+        <div class="field">
+            <label for="category">Category</label>
+            <select name="" id="category">
+                <option value="gen">General</option>
+                <option value="obc">OBC</option>
+                <option value="sc">SC</option>
+                <option value="st">ST</option>
+            </select>
+        </div>
+        <div class="field">
+            <label for="address">Address</label>
+            <br>
+            <textarea name="" id="address" cols="60" rows="5"></textarea>
+        </div>
+        <div class="field">
+            <label for="pin_code">PIN Code</label>
+            <input type="number" name="" id="pin_code" min="100001" max="999999" style="width: 6em;">
+        </div>
+        <div class="field">
+            <label for="cand_num">Phone of Student</label>
+            <span>
+                <input type="text" name="" id="" value="+91" style="width: 2em;" disabled>
+                <input type="number" name="" id="cand_num" max="9999999999">
+            </span>
+        </div>
+        <div class="field">
+            <label for="gaurd_num">Phone of Gaurdian</label>
+            <span>
+                <input type="text" name="" id="" value="+91" style="width: 2em;" disabled>
+                <input type="number" name="" id="gaurd_num" max="9999999999">
+            </span>
+        </div>
+    </div>
+</div>
+
+
+
+	<br>
+    <div class="myDiv">
+        <legend><h3 align="center">ACADEMIC INFORMATION</h3></legend><br>
+        <div class="field">
+            <label for="course">Course</label>
+            <select name="" id="course">
+                <option value="btech">B.Tech</option>
+                <option value="barch">B.Arch</option>
+				<option value="IMSC">IMSC</option>
+            </select>
+        </div>
+        <div class="field">
+            <label for="branch">Branch</label>
+			
+			
+			<select name="" id="Branch">
+			<option value="CSE">Computer Science and Engineering</option>
+                <option value="ECE">Electronics and Communication Engineering</option>
+                <option value="EE"> Electrical Engineering</option>
+                
+                <option value="ME">Mechanical Engineering</option>
+				<option value="CIVIL">Civil Engineering</option>
+				<option value="CE">Chemical Engineering</option>
+				<option value="IMSC">Integrated MSC</option>
+            </select>
+			
+			
+           
+        </div>
+        <div class="field">
+            <label for="sem">Semester</label>
+            <select name="" id="sem">
+                <option value="1_sem">1st</option>
+                <option value="3_sem">3rd</option>
+                <option value="5_sem">5th</option>
+                <option value="7_sem">7th</option>
+            </select>
+            <span class="suggest"> (for which allotment will be done)</span>
+        </div>
+        <div class="field">
+            <label for="air">All India Rank</label>
+            <input type="number" name="" id="air" style="width: 6em;">
+            <span class="suggest">(2020 JEE Main/GATE)</span>
+        </div>
+        <div class="field">
+            <label for="cir">Category Rank</label>
+            <input type="number" name="" id="cir" style="width: 6em;">
+            <span class="suggest">(2020 JEE Main/GATE)</span>
+        </div>
+        <div class="field">
+            <label for="cgpa">CGPA</label>
+            <input type="number" name="" id="cgpa">
+        </div>
+        <div class="field">
+            <label for="backlog">Backlog</label>
+            <span>
+                <label for="y_backlog" class="autoWidth">Yes</label>
+                <input type="radio" name="backlog" id="y_backlog">
+                <label for="n_backlog" class="autoWidth">No</label>
+                <input type="radio" name="backlog" id="n_backlog">
+            </span>
+        </div>
+        <div class="field">
+            <label for="hostel">Hostel Accomodation</label>
+            <span>
+                <label for="y_hostel" class="autoWidth">Yes</label>
+                <input type="radio" name="hostel" id="y_hostel">
+                <label for="n_hostel" class="autoWidth">No</label>
+                <input type="radio" name="hostel" id="n_hostel">
+                <span class="suggest">(if any)</span>
+            </span>
+        </div>
+        <div class="field" id="name_hostel">
+            <label for="hostel_name">Name of Hostel</label>
+			
+			
+			<select name="" id="Hostel">
+			<option value="Sone">Sone Hostel</option>
+                <option value="Ganga">Ganga Hostel</option>
+                <option value="Brahmputra"> Brahmputra Hostel</option>
+                
+                <option value="Kosi">Kosi Hostel</option>
+            </select>
+			
+			
+			
+          <!--  <input type="text" name="" id="hostel_name">    -->
+        </div>
+        <div class="field" id="room_hostel">
+            <label for="hostel_room">Room Number</label>
+            <input type="number" name="" id="hostel_room">
+        </div>
+    </div>
+
+
+
+
+
+	<br>
+    
+     <div class="myDiv">
+        <legend><h3 align="center">ACCOUNT DETAILS FOR REFUNDING PROCESS</h3></legend>
+        <div class="field">
+            <label for="acc_holder">Account Holder Name</label>
+            <input type="text" name="" id="acc_holder">
+            <span class="suggest"> (As per bank passbook) </span>
+        </div>
+        <div class="field">
+            <label for="acc_num">Account Number</label>
+            <input type="number" name="" id="acc_num">
+        </div>
+        <div class="field">
+            <label for="ifsc">IFSC Code</label>
+            <input type="alphnumeric" name="" id="ifsc">
+        </div>
+        <div class="field">
+            <label for="bank_name">Bank Name</label>
+            <input type="text" name="" id="bank_name">
+        </div>
+        <div class="field">
+            <label for="bank_branch">Bank Branch</label>
+            <input type="text" name="" id="bank_branch">
+			
+		</div>
+     </div>
+       <br>
+	   
+	   
+	  <p class="p2"><br>
+	<input type="checkbox">
+	I do hereby declare that the details furnished above are true and correct to the best of my knowledge.<br>
+
+
+
+	<br><input type="checkbox">Check here to indicate that you have read and agree to the
+<a href="https://api.whatsapp.com/send?phone=917999509642&text=&source=&data=&app_absent=" target="_blank">	terms and conditions</a> of institution.<br><br></p> 
+	   
+	   
+	  <br> 
+	   
+
+
+<div align="center">	 
+<input  type="submit"  value="Submit and Continue" >
+</div>	
+	<br><br>
+				
+<br><hr><a href="index.html" target="_self">GO TO INDEX PAGE</a><hr><br>
+
+
+<a href="https://api.whatsapp.com/send?phone=917999509642&text=&source=&data=&app_absent=" target="_blank">
+<p  title='Link to the creator of this page'  style= "color:blue;">	&copyPranjal Mishra | Roll no. 1906024 | NIT Patna | HELP </p></a>
+
+	
+ </body>
+</html>

@@ -1,0 +1,32 @@
+
+body{
+	color:white;
+  	background-color:black;
+	text-align: center;
+	text-indent: 3em;	
+}
+h2{
+	color:#313d4b;
+	background-color:wheat;
+	font-family:"Comic Sans MS",cursive,sans-serif;
+	width:40%;
+	margin: auto;
+	padding-right: 70px;
+	border-radius: 100px ;
+	font-size:42px;
+}
+  tables1 {
+            border-collapse: collapse;
+            padding: 10px;
+            width: 50%;
+            margin-left: 400px;
+            background-color: aliceblue;
+        }
+               
+        rows {
+            padding: 15px;
+            background-color: aliceblue;
+            margin-top: 3px;
+            border: 1px solid pink;
+            border-radius: 3px;
+        }
