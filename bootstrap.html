@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning Bootstrap</title>
+	<meta charset="utf-8">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6a9a7e3ef8.js" crossorigin="anonymous"></script>
+    <style media="screen">
+      .fab{
+        font-size:2.5rem;
+        color:#ffd31d;
+      }
+      .navbar-light{
+        background-color:#4e89ae;
+      }
+      .nav-link{
+        font-size:1.2rem;
+        font-weight:500;
+      }
+      .btn{
+        font-weight:500;
+      }
+      #jumbo{
+        padding:1% 2%
+      }
+      .jumbotron .btn-primary{
+        background-color:#ffd31d;
+      }
+      #demo{
+          padding:1% 2%;
+      }
+      #demo .btn-primary{
+        background-color:#4e89ae;
+      }
+     img {
+  border-radius: 10%;
+
+}
+
+    </style>
+	
+</head>
+<body  >
+
+
+<hr>
+ <h1 style="color:red" >
+🅿PranjalM 
+		
+<image border="10"  align="right" width="120" height="120" src="j1.jpeg" alt="pranjal's pic"></image> 
+
+</h1><hr>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="1as25sep.html">Go to flex Demo</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="index.html">Go to Index page</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<marquee><h5 style="color:blue">PRANJAL MISHRA | Roll No.1906024 </h5></marquee>
+
+
+
+<section id="jumbo">
+   <div class="jumbotron">
+    <h1 class="display-4">This is Pranjal Mishra!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </div>
+ </section>
+
+<section id=demo>
+   <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#exampleModal">
+     Launch demo modal
+   </button>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><h2>Welcome</h2></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h3>This is a Demo !</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+ </section>
+ <div class="card1" style="width: 18rem;">
+  <img class="card-img-top" src="j3.jpg" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="1as25sep.html" class="btn btn-primary">My Jack</a>
+  </div>
+</div>
+<br>
+<br>
+	
+<a href="#" target="_blank">
+<h2  id="pm3" align="center" title='Link to the creator of this page'  style= "color:#ff0000;">	&copyPranjal Mishra | Roll no. 1906024 | NIT Patna  </h2></a>
+
+</body>
+</html>
